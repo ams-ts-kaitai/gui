@@ -14,20 +14,18 @@
             <artifactId>kaitai-struct-runtime</artifactId>
             <version>0.8-SNAPSHOT</version>
         </dependency>
-
         <dependency>
             <groupId>io.kaitai</groupId>
             <artifactId>kaitai-struct-compiler_2.11</artifactId>
             <version>0.5-SNAPSHOT</version>
         </dependency>
-
-		<dependency>
-			<groupId>at.HexLib</groupId>
-			<artifactId>HexLib</artifactId>
-			<version>0.0.0</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/HexLib.jar</systemPath>
-		</dependency>
+        <dependency>
+            <groupId>at.HexLib</groupId>
+            <artifactId>HexLib</artifactId>
+            <version>0.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/HexLib.jar</systemPath>
+        </dependency>
     </dependencies>
 
     <build>
